@@ -13,7 +13,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-36 lg:mx-16">
+    <div className="border-b border-neutral-900 pb-4 lg:mb-36">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col  lg:items-start">
@@ -49,7 +49,6 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              className="lg:w-[80%] lg:h-[92%] rounded-xl"
               src={kundan1}
               alt="kundan1"
             />
